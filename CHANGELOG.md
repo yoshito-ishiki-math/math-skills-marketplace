@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.2 — 2026-10-08
+
+- Sync all imported files to public source commit `a377bfc5b2310d0807baf397c6f8a5e3ff8ec888`.
+- Add conditional writing guides for manuscript provenance and mathematical figures.
+- Add a general guide for reconciling manuscript-local conventions, with private
+  manuscript identities, notation inventories, and individual decisions excluded.
+- Preserve all 35 imported source files and record their Git blob and SHA-256 hashes.
+
 ## 0.1.1 — 2026-10-08
 
 - Sync all imported files to public source commit `7a7e1f8a4ac9bc8e7fef728a2edbed4dac3e083b`.

@@ -87,6 +87,18 @@ Codexでは `$write-research-paper`、Claude Codeでは `/write-research-paper` 
 
 ## ハーネス・Kichoとの組み合わせ
 
+執筆用skillは、依頼内容に応じて次の案内を読みます。
+
+| 案内 | 適用する場面 |
+| --- | --- |
+| [原稿の来歴](skills/write-research-paper/references/manuscript-provenance.md) | 取り込んだ結果、主張の対応、出典の版、保護された改稿範囲の確認 |
+| [数学図](skills/write-research-paper/references/mathematical-figures.md) | 許可された図・図式の変更と、影響する出力の確認 |
+| [原稿固有の規則](skills/write-research-paper/references/manuscript-local-conventions.md) | 原稿の指定と共通の既定値が異なる場合の調整 |
+
+原稿固有規則の公開版は、指定の優先関係と適用範囲を扱う一般的な案内です。
+実際の原稿番号、記号一覧、個別の証明に関する著者判断は、私有の原稿記録で管理します。
+これらの案内だけで、独立レビュー、証明監査、移行、投稿・公開を開始しません。
+
 [math-research-harness-public](https://github.com/yoshito-ishiki-math/math-research-harness-public) と組み合わせて使えます。skillsは汎用の執筆・説明レビューを担当し、ハーネスは研究記録、原稿の状態、検査、投稿準備などのプロジェクト固有の運用を担当します。
 
 公開ハーネスでは、各原稿を `paperN/` の独立したKichoプロジェクトとして扱い、`kicho init`、`check`、`build`、`archive`、`flatten`、`submit` などを使う手順を定めています。Kicho本体はこのリポジトリに同梱していません。別の原稿管理環境では、そのプロジェクトの指示と検査手順に従ってください。

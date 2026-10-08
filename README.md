@@ -27,13 +27,20 @@ codex plugin list --marketplace yoshito-ishiki-math --json
 
 ## Included plugin
 
-`math-paper-skills` version **0.1.1** installs these three skills together:
+`math-paper-skills` version **0.1.2** installs these three skills together:
 
 | Skill | Purpose |
 | --- | --- |
 | `write-research-paper` | Owner-directed mathematics manuscript writing and revision |
 | `read-research-paper` | Explicitly delegated independent exposition review of a frozen manuscript |
 | `latex-paragraph-ids` | Kicho-managed paragraph-ID editing and release conventions |
+
+The writer includes conditional guides for
+[manuscript provenance](plugins/math-paper-skills/skills/write-research-paper/references/manuscript-provenance.md),
+[mathematical figures](plugins/math-paper-skills/skills/write-research-paper/references/mathematical-figures.md), and
+[local conventions](plugins/math-paper-skills/skills/write-research-paper/references/manuscript-local-conventions.md).
+The local-conventions guide uses general examples; individual manuscript
+identities, notation inventories, and owner decisions stay in private records.
 
 The reader uses sibling-relative links to the writer's shared guidance.
 The package preserves that layout. Exposition review does not certify proof
@@ -61,13 +68,13 @@ updating a reproducible manuscript workflow.
 
 The bundled files come from
 [yoshito-ishiki-math/math-paper-skills](https://github.com/yoshito-ishiki-math/math-paper-skills)
-at commit `7a7e1f8a4ac9bc8e7fef728a2edbed4dac3e083b`.
+at commit `a377bfc5b2310d0807baf397c6f8a5e3ff8ec888`.
 That repository is a public derivative of
 [Haruhisa Enomoto's math-paper-skills](https://github.com/haruhisa-enomoto/math-paper-skills).
 Its original MIT license, attribution, and public-release notes are retained.
 
 [UPSTREAM.json](UPSTREAM.json) records the source revision, original Git blob
-identities, and SHA-256 hashes. All 32 imported files are preserved byte for byte.
+identities, and SHA-256 hashes. All 35 imported files are preserved byte for byte.
 The plugin manifest and icon are additions. Marketplace packaging is licensed
 under the root [MIT license](LICENSE); imported files retain their
 [source license](plugins/math-paper-skills/LICENSE).

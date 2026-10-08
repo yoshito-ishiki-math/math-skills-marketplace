@@ -1,8 +1,8 @@
 {
   "repository": "https://github.com/yoshito-ishiki-math/math-paper-skills",
-  "revision": "7a7e1f8a4ac9bc8e7fef728a2edbed4dac3e083b",
+  "revision": "a377bfc5b2310d0807baf397c6f8a5e3ff8ec888",
   "plugin": "math-paper-skills",
-  "plugin_version": "0.1.1",
+  "plugin_version": "0.1.2",
   "files": [
     {
       "path": ".gitignore",
@@ -18,21 +18,21 @@
     },
     {
       "path": "PUBLIC-RELEASE.md",
-      "git_blob_sha1": "b3282c8ecafb3c1758d979dd3b06d88293b971b1",
-      "size": 2728,
-      "sha256": "6516556ab7a347b1ebb0bc4f4f2382d22d64bb22cf7767206dcdc902ccb4e78d"
+      "git_blob_sha1": "146faacc613bf229db00c7705d8991d0cb2c9f06",
+      "size": 3177,
+      "sha256": "5d1cf89f1bdad644674c9ca785a3622832fb9bb79784e21f30a3da42a99dcb81"
     },
     {
       "path": "README.ja.md",
-      "git_blob_sha1": "acebe51b3c766d93502c027c2b9348f33cffd3b6",
-      "size": 9070,
-      "sha256": "14f828b337c003a62820aee234ac2708084798ade8770057aa0eff0688473074"
+      "git_blob_sha1": "86ef91b67ea52e1f900f8f8d2ffb87dc3399dde0",
+      "size": 10046,
+      "sha256": "b37939ee46c874aa410bdafb7124fc266cf21a3ba93efc3a517f318a41728741"
     },
     {
       "path": "README.md",
-      "git_blob_sha1": "cd3a6ca695363ec36a36d27162e25aa71678a8cc",
-      "size": 5094,
-      "sha256": "c232b52041738a2aa23d6b0da8c2a5934f2f1dc12a50f84194a077cb88ed24a6"
+      "git_blob_sha1": "6b5a052db1349807efce8564af3575cc088dd256",
+      "size": 5968,
+      "sha256": "b3dee159b65d7d78f889f924b3596bcaedfa874cc55afc517bd0c6fb458c0342"
     },
     {
       "path": "examples/author-style.md",
@@ -84,9 +84,9 @@
     },
     {
       "path": "skills/write-research-paper/SKILL.md",
-      "git_blob_sha1": "28a461f6db5e5bbba7859a01a36df4feda1323c2",
-      "size": 5352,
-      "sha256": "c330b0dc2cb5322b77052c1bf5017562f82665b6960877664306b681731f9769"
+      "git_blob_sha1": "b925a44c9bb3d265f5d57794372328801e40ade6",
+      "size": 5968,
+      "sha256": "c2e2d346918266df271485d52e1a52a99bd0638a8fd7ef904ac72098472275f2"
     },
     {
       "path": "skills/write-research-paper/agents/openai.yaml",
@@ -153,6 +153,24 @@
       "git_blob_sha1": "c00b2183aa28782e9f8456b61e8c7d746a9de28a",
       "size": 1811,
       "sha256": "66aeb8a2d5ec2c377e7a0bc60c8fc9f3847a64ddca91623e821f262e04cc62b3"
+    },
+    {
+      "path": "skills/write-research-paper/references/manuscript-local-conventions.md",
+      "git_blob_sha1": "993926d097c066f219c12665bf256c865e874a01",
+      "size": 2976,
+      "sha256": "7da9996be3a0bedac14afda50b58a1706f529f4332ad76edeac20d324dae801e"
+    },
+    {
+      "path": "skills/write-research-paper/references/manuscript-provenance.md",
+      "git_blob_sha1": "0a3e525689fdd7e6f5fd3a9dc0776f3d68121e04",
+      "size": 6649,
+      "sha256": "ee5cf9e936bf91634831117a4252f84566182002cd97e2f07eb9a2c575f5b086"
+    },
+    {
+      "path": "skills/write-research-paper/references/mathematical-figures.md",
+      "git_blob_sha1": "d3e9410fe771a1a5846e5da793ced239943b02f2",
+      "size": 3109,
+      "sha256": "e8090cbfe9baf2bd9848c751797a724c7525710a878cb517a40323c793320fc8"
     },
     {
       "path": "skills/write-research-paper/references/owner-proof-decisions.md",

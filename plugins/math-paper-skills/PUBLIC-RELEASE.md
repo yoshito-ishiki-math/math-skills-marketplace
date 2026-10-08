@@ -11,6 +11,8 @@ private development commits and branches were not imported.
 
 - Explicitly delegated independent review, delta review, scoped proof-detail decisions.
 - Writer-side revision tracking and challenging exposition audits.
+- Conditional guides for manuscript provenance, mathematical figures, and
+  resolving manuscript-local conventions.
 - Kicho paragraph-ID usage conventions and private corpus retrieval/indexing scripts.
 - A neutral author-profile entry point in place of personal style instructions.
 
@@ -23,6 +25,12 @@ fixtures or newly written synthetic tests. `examples/author-style.md` is a
 separately authorized, sanitized extract of concrete style preferences, with
 generic notation and no manuscript quotations. It is optional, not a default. Public account identity remains
 visible through GitHub hosting and noreply commit metadata.
+
+The manuscript-local conventions guide retains general reconciliation rules;
+private manuscript numbers, per-paper notation inventories, and individual
+proof-detail decisions are excluded. The provenance and mathematical-figures
+guides contain portable workflow guidance. No private corpus material was
+added with these references.
 
 ## Customization
 

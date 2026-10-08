@@ -35,6 +35,14 @@ Continue independent in-scope work while that decision is pending.
   Preserve approved omissions and short arguments within their recorded scope.
   These records belong in private working files, never manuscript prose or
   submission artifacts, and do not certify mathematical correctness.
+- For manuscripts using research claim catalogs, imported projects, source
+  registers, or protected passages, read [manuscript provenance](references/manuscript-provenance.md).
+  Use only the parts needed by the host and requested edit.
+- For mathematical illustrations, diagrams, or changes to their placement,
+  read [mathematical figures](references/mathematical-figures.md).
+- When a local notation or formatting choice conflicts with a shared default,
+  use [local conventions](references/manuscript-local-conventions.md) to resolve
+  its authority and scope. Examples illustrate reconciliation, not defaults.
 
 For a requested challenging exposition audit, or a concrete quantifier or
 logical-dependency ambiguity in an authorized review, use

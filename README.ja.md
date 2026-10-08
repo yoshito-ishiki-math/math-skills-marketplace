@@ -27,13 +27,20 @@ codex plugin list --marketplace yoshito-ishiki-math --json
 
 ## 収録内容
 
-プラグイン `math-paper-skills` **0.1.1** に、次の3スキルを同梱しています。
+プラグイン `math-paper-skills` **0.1.2** に、次の3スキルを同梱しています。
 
 | スキル | 用途 |
 | --- | --- |
 | `write-research-paper` | 所有者の指示に基づく数学論文の執筆・改稿 |
 | `read-research-paper` | 明示的に委任された、凍結原稿の独立した文章レビュー |
 | `latex-paragraph-ids` | Kicho が管理する段落 ID の編集・提出規約 |
+
+執筆用スキルには、必要に応じて読む
+[原稿の来歴](plugins/math-paper-skills/skills/write-research-paper/references/manuscript-provenance.md)、
+[数学図](plugins/math-paper-skills/skills/write-research-paper/references/mathematical-figures.md)、
+[原稿固有の規則](plugins/math-paper-skills/skills/write-research-paper/references/manuscript-local-conventions.md)
+の案内を含めています。原稿固有規則の例は一般化し、実際の原稿番号、
+記号一覧、個別の著者判断は私有の原稿記録で管理します。
 
 レビュー用スキルが執筆基準を相対パスで参照するため、3スキルを一緒に
 導入する構成です。文章レビューは証明の正しさを保証しません。
@@ -59,12 +66,12 @@ codex plugin add math-paper-skills@yoshito-ishiki-math
 ## 出典と配布範囲
 
 取得元は [yoshito-ishiki-math/math-paper-skills](https://github.com/yoshito-ishiki-math/math-paper-skills)
-のコミット `7a7e1f8a4ac9bc8e7fef728a2edbed4dac3e083b` です。
+のコミット `a377bfc5b2310d0807baf397c6f8a5e3ff8ec888` です。
 同リポジトリは [Haruhisa Enomoto の math-paper-skills](https://github.com/haruhisa-enomoto/math-paper-skills)
 を基礎としています。元の MIT ライセンスと出典表示を保持しています。
 
 [UPSTREAM.json](UPSTREAM.json) に取得コミット、Git blob の識別子、SHA-256 を記録し、
-公開済みの32ファイルを無改変で同梱しています。プラグインの定義とアイコンを追加しました。
+公開済みの35ファイルを無改変で同梱しています。プラグインの定義とアイコンを追加しました。
 この配布構成にはルートの [MIT ライセンス](LICENSE)、取得元のファイルには
 [元のライセンス](plugins/math-paper-skills/LICENSE) が適用されます。
 

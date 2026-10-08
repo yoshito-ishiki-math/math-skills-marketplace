@@ -97,6 +97,19 @@ resources. A host project may add local authorship rules, manuscript state,
 compilation gates, vocabulary diagnostics, and publication conventions through
 its own instructions or paper-writing overlay.
 
+The writer loads these guides when the requested work needs them:
+
+| Guide | When it applies |
+| --- | --- |
+| [Manuscript provenance](skills/write-research-paper/references/manuscript-provenance.md) | Imported results, claim maps, source identity, or protected revisions |
+| [Mathematical figures](skills/write-research-paper/references/mathematical-figures.md) | Authorized diagram edits and checks of the affected artifact |
+| [Local conventions](skills/write-research-paper/references/manuscript-local-conventions.md) | Resolving a manuscript-specific choice against shared defaults |
+
+The local-conventions guide contains general reconciliation rules. Actual
+manuscript identities, local notation inventories, and individual proof
+decisions stay in the host's private records. These guides do not initiate
+independent review, proof audits, migrations, or publication.
+
 ## Layout
 
 ```text
