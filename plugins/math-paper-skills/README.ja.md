@@ -36,7 +36,11 @@ ln -sfn /absolute/path/to/math-paper-skills/skills/read-research-paper \
   "$HOME/.agents/skills/read-research-paper"
 ```
 
-段落IDも使う場合は、次のリンクを追加します。
+段落IDも使う場合は、次のリンクを追加します。パッケージとIDツールは
+[Kicho](https://github.com/yoshito-ishiki-math/kicho) が管理し、このskillは編集・提出の利用規則を案内します。
+`paraids` コマンドを備えたKichoで `kicho help paraids` を確認し、原稿へは
+`kicho paraids install --root <paper>` で導入します。既存のIDは保持し、
+原稿側の異なるパッケージの版を自動的に上書きしません。
 
 ```sh
 ln -sfn /absolute/path/to/math-paper-skills/skills/latex-paragraph-ids \
@@ -103,7 +107,7 @@ Codexでは `$write-research-paper`、Claude Codeでは `/write-research-paper` 
 python3 -m unittest discover -s tests
 ```
 
-この検査は論文の数学的正しさや、すべての文書クラスでの段落IDの表示を保証するものではありません。原稿のビルドや表示は、そのプロジェクトで確認してください。
+この検査はコーパスツールとskill内の参照先を確認します。段落IDの実装テストはKicho側で実行します。論文の数学的正しさを保証する検査ではなく、原稿のビルドや表示は、そのプロジェクトで確認してください。
 
 ## ライセンス
 

@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "math-paper-skills",
-  "version": "0.1.0",
-  "description": "Skills for mathematics-paper writing, explicitly delegated independent exposition review, and stable LaTeX paragraph identifiers.",
+  "version": "0.1.1",
+  "description": "Skills for mathematics-paper writing, explicitly delegated independent exposition review, and Kicho-managed paragraph-ID workflows.",
   "author": {
     "name": "Yoshito Ishiki",
     "url": "https://github.com/yoshito-ishiki-math"
@@ -16,7 +16,7 @@
       "interface": {
         "displayName": "Math Paper Skills",
         "shortDescription": "Mathematics paper workflows",
-        "longDescription": "Draft and revise mathematics papers, perform explicitly delegated independent exposition review, and maintain stable LaTeX paragraph identifiers. The writing and reading skills share portable guidance and are installed together. Optional corpus tools use owner-designated input; no private corpus is bundled. Exposition review and software checks do not certify mathematical proofs.",
+        "longDescription": "Draft and revise mathematics papers, perform explicitly delegated independent exposition review, and use Kicho-managed paragraph-ID workflows. The writing and reading skills share portable guidance and are installed together. Paragraph-ID commands and release cleanup require Kicho with its paraids command. Optional corpus tools use owner-designated input; no private corpus is bundled. Exposition review and software checks do not certify mathematical proofs.",
         "developerName": "Yoshito Ishiki",
         "category": "Productivity",
         "capabilities": ["Writing", "Exposition review", "LaTeX paragraph IDs"],

@@ -1,8 +1,8 @@
 {
   "repository": "https://github.com/yoshito-ishiki-math/math-paper-skills",
-  "revision": "f2faa773fa073869d29b4e2a369d10170d2a4feb",
+  "revision": "7a7e1f8a4ac9bc8e7fef728a2edbed4dac3e083b",
   "plugin": "math-paper-skills",
-  "plugin_version": "0.1.0",
+  "plugin_version": "0.1.1",
   "files": [
     {
       "path": ".gitignore",
@@ -18,21 +18,21 @@
     },
     {
       "path": "PUBLIC-RELEASE.md",
-      "git_blob_sha1": "7cf667415c70dc0db361aaa55b6072cbd021c80a",
-      "size": 2629,
-      "sha256": "8b4106b1cca427fa3e04b2f8a5cfe2af3015c56eab3b2c697fc4c4e0bfbb07b6"
+      "git_blob_sha1": "b3282c8ecafb3c1758d979dd3b06d88293b971b1",
+      "size": 2728,
+      "sha256": "6516556ab7a347b1ebb0bc4f4f2382d22d64bb22cf7767206dcdc902ccb4e78d"
     },
     {
       "path": "README.ja.md",
-      "git_blob_sha1": "02b234e46f723454dde852d6e9efe74e3e3d15d5",
-      "size": 8584,
-      "sha256": "cdeccb692b484b5264df15533e8a6ab158f099bf22aaeaf08b9896db930c250e"
+      "git_blob_sha1": "acebe51b3c766d93502c027c2b9348f33cffd3b6",
+      "size": 9070,
+      "sha256": "14f828b337c003a62820aee234ac2708084798ade8770057aa0eff0688473074"
     },
     {
       "path": "README.md",
-      "git_blob_sha1": "24335c3c2c3ad6b0256b723c344e7f714657b14a",
-      "size": 4774,
-      "sha256": "53816e404958d6133d69f153a038a3205874a7245651fb45fb4a2c78e24b44c5"
+      "git_blob_sha1": "cd3a6ca695363ec36a36d27162e25aa71678a8cc",
+      "size": 5094,
+      "sha256": "c232b52041738a2aa23d6b0da8c2a5934f2f1dc12a50f84194a077cb88ed24a6"
     },
     {
       "path": "examples/author-style.md",
@@ -42,33 +42,15 @@
     },
     {
       "path": "skills/latex-paragraph-ids/SKILL.md",
-      "git_blob_sha1": "661543f1395a489774d3a16b9b451bb3a4971aa0",
-      "size": 7151,
-      "sha256": "9abac5d2c7bab25dd150cb620238b7075ead8c2940bac9605845e9876a9c672a"
-    },
-    {
-      "path": "skills/latex-paragraph-ids/assets/paragraphids.sty",
-      "git_blob_sha1": "c45c8f5d9cab6a541c1eb78a4294c042ccc6c3c2",
-      "size": 2625,
-      "sha256": "71b5b827e1a533407ad426536c09d34afee6e3925a50462d4fbedcbb968936cc"
+      "git_blob_sha1": "944f74394c969a9ab75a340872731ba18970b08a",
+      "size": 3227,
+      "sha256": "c0e66a93c15a5f4de7c275db0b02bef8788edbd415d8fdcf4d66cace21a25a80"
     },
     {
       "path": "skills/latex-paragraph-ids/references/usage.md",
-      "git_blob_sha1": "bae31db9198e8f88ee8cac423fca00b5ea84049a",
-      "size": 5050,
-      "sha256": "c7c13694044f5bfddfc1b15b7b1ed0c5650b8bd6f4c7541f2f889bba14e488c9"
-    },
-    {
-      "path": "skills/latex-paragraph-ids/scripts/install.py",
-      "git_blob_sha1": "2848a597ff529dcf3e59c0bea5bcf4182c5e3687",
-      "size": 1036,
-      "sha256": "a372563991c20e8e0d2321b4f4580096d9c888955592902d9dcc795e6d35e5cf"
-    },
-    {
-      "path": "skills/latex-paragraph-ids/scripts/paraids.py",
-      "git_blob_sha1": "8a5811b365d61eae7c42f29d5219fc9e4bb1f257",
-      "size": 4322,
-      "sha256": "3200af3b858bacf617290106b8c5837d16caabe1d5087df89b55980e71911f0e"
+      "git_blob_sha1": "46dbee23b774e908b2df6f7c74da9ebddbf01872",
+      "size": 674,
+      "sha256": "700e9b4658708e5deabbf24adc4dcee2520c86587cf328543cebd9065bfb4fba"
     },
     {
       "path": "skills/read-research-paper/SKILL.md",
@@ -102,9 +84,9 @@
     },
     {
       "path": "skills/write-research-paper/SKILL.md",
-      "git_blob_sha1": "9db6f061418cf45189ba63d82c4c1fca71437246",
-      "size": 5372,
-      "sha256": "ef8fdfabc0a1b980dbd259707be17f87482ed535decde6fabdd05f53c613e529"
+      "git_blob_sha1": "28a461f6db5e5bbba7859a01a36df4feda1323c2",
+      "size": 5352,
+      "sha256": "c330b0dc2cb5322b77052c1bf5017562f82665b6960877664306b681731f9769"
     },
     {
       "path": "skills/write-research-paper/agents/openai.yaml",
@@ -210,9 +192,9 @@
     },
     {
       "path": "tests/test_portable_tools.py",
-      "git_blob_sha1": "e9af79f871263848a8404a8adae39dc9aca63c0c",
-      "size": 4619,
-      "sha256": "c5b77923ead3fa6677bc9be380429b16615665a7b24ba7ab0ac2855c67dd32f0"
+      "git_blob_sha1": "f56f02ef0c17e23500e97da06b3df94d44755991",
+      "size": 3279,
+      "sha256": "b3ab750c177ccf26db5b356483ecc66549f7eacd1bacc8de8eb680c7f9afd634"
     }
   ]
 }

@@ -27,19 +27,23 @@ codex plugin list --marketplace yoshito-ishiki-math --json
 
 ## 収録内容
 
-プラグイン `math-paper-skills` **0.1.0** に、次の3スキルを同梱しています。
+プラグイン `math-paper-skills` **0.1.1** に、次の3スキルを同梱しています。
 
 | スキル | 用途 |
 | --- | --- |
 | `write-research-paper` | 所有者の指示に基づく数学論文の執筆・改稿 |
 | `read-research-paper` | 明示的に委任された、凍結原稿の独立した文章レビュー |
-| `latex-paragraph-ids` | LaTeX 原稿の固定段落 ID と補助ツール |
+| `latex-paragraph-ids` | Kicho が管理する段落 ID の編集・提出規約 |
 
 レビュー用スキルが執筆基準を相対パスで参照するため、3スキルを一緒に
 導入する構成です。文章レビューは証明の正しさを保証しません。
 個人の原稿やコーパスは含まれていません。任意のコーパス検索ツールには
-所有者が指定する入力が必要です。補助スクリプトには Python 3.10 以上を
-推奨します。段落 ID の組版には、同梱の利用案内に記載された LaTeX 環境が必要です。
+所有者が指定する入力が必要です。コーパスの補助スクリプトには Python 3.10 以上を
+推奨します。段落 ID を扱うには、`paraids` コマンドを備えた
+[Kicho](https://github.com/yoshito-ishiki-math/kicho) が必要です。
+`kicho help paraids` で確認し、原稿への導入には `kicho paraids install --root <paper>` を使います。
+パッケージ・補助ツール・提出用の処理は Kicho が管理し、スキルは利用規約を案内します。
+詳しくは [Kicho の段落 ID 案内](https://github.com/yoshito-ishiki-math/kicho/blob/main/docs/paragraphids.md) を参照してください。
 
 ## 更新
 
@@ -55,12 +59,12 @@ codex plugin add math-paper-skills@yoshito-ishiki-math
 ## 出典と配布範囲
 
 取得元は [yoshito-ishiki-math/math-paper-skills](https://github.com/yoshito-ishiki-math/math-paper-skills)
-のコミット `f2faa773fa073869d29b4e2a369d10170d2a4feb` です。
+のコミット `7a7e1f8a4ac9bc8e7fef728a2edbed4dac3e083b` です。
 同リポジトリは [Haruhisa Enomoto の math-paper-skills](https://github.com/haruhisa-enomoto/math-paper-skills)
 を基礎としています。元の MIT ライセンスと出典表示を保持しています。
 
 [UPSTREAM.json](UPSTREAM.json) に取得コミット、Git blob の識別子、SHA-256 を記録し、
-公開済みの35ファイルを無改変で同梱しています。プラグインの定義とアイコンを追加しました。
+公開済みの32ファイルを無改変で同梱しています。プラグインの定義とアイコンを追加しました。
 この配布構成にはルートの [MIT ライセンス](LICENSE)、取得元のファイルには
 [元のライセンス](plugins/math-paper-skills/LICENSE) が適用されます。
 

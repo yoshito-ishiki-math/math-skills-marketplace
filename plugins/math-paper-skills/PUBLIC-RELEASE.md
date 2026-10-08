@@ -11,7 +11,7 @@ private development commits and branches were not imported.
 
 - Explicitly delegated independent review, delta review, scoped proof-detail decisions.
 - Writer-side revision tracking and challenging exposition audits.
-- Optional paragraph identifiers and private corpus retrieval/indexing scripts.
+- Kicho paragraph-ID usage conventions and private corpus retrieval/indexing scripts.
 - A neutral author-profile entry point in place of personal style instructions.
 
 ## Excluded material
@@ -35,13 +35,14 @@ is safe to distribute.
 ## Validation limits
 
 Repository tests check software behavior and record consistency, not mathematical
-correctness. Corpus tests use synthetic text. Paragraph helper checks do not
-certify all LaTeX classes or margin layouts. Kicho, Lean, and external literature
+correctness. Corpus tests use synthetic text. Paragraph-ID implementation and its tests now live in Kicho; this repository
+keeps only usage conventions and routing. Kicho, Lean, and external literature
 services require their own project-specific setup and validation.
 
 ## Release checks
 
-5 synthetic tool/link tests passed. All three skill packages passed the skill validator.
+3 synthetic corpus/link tests passed after paragraph-ID runtime tests moved to Kicho.
+All three skill packages passed the skill validator.
 The release file scan found no configured personal identifiers, local home paths,
 private-key blocks, or recognized access-token patterns. This scan is bounded
 by its patterns; it is not a guarantee about arbitrary future additions.

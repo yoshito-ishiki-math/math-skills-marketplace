@@ -46,13 +46,14 @@ Use the existing writing state. For a complex task lacking one,
 do not create duplicate or empty records for a small edit.
 
 For paragraph-ID setup or edits addressed by an existing paragraph ID, use
-[latex-paragraph-ids](../latex-paragraph-ids/SKILL.md). Preserve existing IDs
-during revisions; do not introduce tags into unrelated manuscript work. For tagged
-manuscripts, an author request for `submit`, `submit --arxiv`, or publication
-also activates that skill’s submission/publication convention: comment out
-showkeys, the paragraphids package loading, every standalone paraid line,
-all paranote calls (including continuation lines), and package-specific settings in the release version. Compile the release
-without paragraphids.sty; preserve body text and paragraph boundaries.
+Kicho's `paraids` command and the conventions in
+[latex-paragraph-ids](../latex-paragraph-ids/SKILL.md). Kicho owns the package
+and helper; do not install them from skill assets or maintain a second copy of
+the implementation here. Preserve existing IDs during revisions and do not
+introduce tags into unrelated manuscript work. For submission or publication,
+use Kicho's release preparation to comment out the package, IDs, red notes,
+and settings in the release copy. Inspect the package-free compiled release,
+its body layout, and the absence of editorial marks.
 
 ## Choose the route
 

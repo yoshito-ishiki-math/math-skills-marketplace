@@ -72,6 +72,12 @@ def main():
         blob = hashlib.sha1(b"blob " + str(len(raw)).encode() + b"\0" + raw).hexdigest()
         require(blob == item["git_blob_sha1"], f"Source blob changed: {relative}")
 
+    expected_files = imported | {"plugin.json", "assets/icon.svg"}
+    actual_files = {path.relative_to(plugin).as_posix() for path in plugin.rglob("*")
+                    if path.is_file() and "__pycache__" not in path.parts}
+    require(actual_files == expected_files,
+            f"Unexpected or missing plugin files: {sorted(actual_files ^ expected_files)}")
+
     expected = {"write-research-paper", "read-research-paper", "latex-paragraph-ids"}
     skills = list((plugin / "skills").glob("*/SKILL.md"))
     require({skill.parent.name for skill in skills} == expected, "Unexpected skill set")

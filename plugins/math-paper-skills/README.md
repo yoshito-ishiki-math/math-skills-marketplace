@@ -62,9 +62,13 @@ not appear immediately.
 ## Optional paragraph IDs and private corpus tools
 
 This distribution also includes `skills/latex-paragraph-ids`. Link that directory
-alongside the paired skills when using paragraph IDs. It provides a standalone
-LaTeX package and read-only identifier helpers; it never tags existing papers
-without an explicit request.
+alongside the paired skills when using paragraph IDs. It records editing and
+submission conventions and routes to [Kicho](https://github.com/yoshito-ishiki-math/kicho),
+which owns the LaTeX package, ID tools, and submission cleanup. No package or
+runtime helper is bundled in this skill. Use `kicho help paraids` and
+`kicho paraids install --root <paper>` with a Kicho checkout that provides the
+command. Existing manuscript IDs and local package copies remain unchanged
+until an explicit edit or upgrade.
 
 The writer includes optional corpus tools with explicit private input paths.
 See its `references/corpus-method.md`. No private profile, corpus data, or

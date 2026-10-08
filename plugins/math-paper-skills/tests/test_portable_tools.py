@@ -10,7 +10,6 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = ROOT / 'skills/write-research-paper/scripts'
-IDS = ROOT / 'skills/latex-paragraph-ids/scripts'
 spec = importlib.util.spec_from_file_location('style_corpus', SCRIPTS/'style_corpus.py')
 corpus = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(corpus)
@@ -51,31 +50,7 @@ class PortableToolsTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'escapes'):
                 corpus.read_record(root,{'path':'../outside.tex','sha256':'0'*64,'id':'test'})
 
-    def test_install_is_idempotent_and_preserves_local_edits(self):
-        with tempfile.TemporaryDirectory() as temp:
-            paper=Path(temp)
-            self.run_script(IDS/'install.py',paper)
-            package=paper/'paragraphids.sty';original=package.read_bytes()
-            self.run_script(IDS/'install.py',paper)
-            self.assertEqual(package.read_bytes(),original)
-            package.write_bytes(b'local changes')
-            self.run_script(IDS/'install.py',paper,ok=False)
-            self.assertEqual(package.read_bytes(),b'local changes')
-
-    def test_paragraph_ids_detect_duplicates_and_preserve_sources(self):
-        with tempfile.TemporaryDirectory() as temp:
-            root=Path(temp); paper=root/'main.tex'
-            raw=r"\paraid{p-123456abcdef}"+'\nSynthetic paragraph.\n'
-            paper.write_text(raw)
-            self.run_script(IDS/'paraids.py','check','--root',root)
-            found=self.run_script(IDS/'paraids.py','find','p-123456abcdef','--root',root)
-            self.assertIn('main.tex',found.stdout)
-            fresh=self.run_script(IDS/'paraids.py','new','--root',root,'--count','2')
-            self.assertNotIn('p-123456abcdef',fresh.stdout)
-            self.assertEqual(paper.read_text(),raw)
-            paper.write_text(raw+raw)
-            self.run_script(IDS/'paraids.py','check','--root',root,ok=False)
-
+    # Paragraph-ID runtime coverage lives in Kicho alongside its implementation.
     def test_local_markdown_links_resolve(self):
         import re
         for path in (ROOT/'skills').rglob('*.md'):
