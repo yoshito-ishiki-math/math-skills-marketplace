@@ -27,7 +27,7 @@ codex plugin list --marketplace yoshito-ishiki-math --json
 
 ## 収録内容
 
-プラグイン `math-paper-skills` **0.1.2** に、次の3スキルを同梱しています。
+プラグイン `math-paper-skills` **0.1.3** に、次の3スキルを同梱しています。
 
 | スキル | 用途 |
 | --- | --- |
@@ -66,7 +66,7 @@ codex plugin add math-paper-skills@yoshito-ishiki-math
 ## 出典と配布範囲
 
 取得元は [yoshito-ishiki-math/math-paper-skills](https://github.com/yoshito-ishiki-math/math-paper-skills)
-のコミット `a377bfc5b2310d0807baf397c6f8a5e3ff8ec888` です。
+のコミット `ffe72aaa250e057d55827f33b3fa13bd5451f9b2` です。
 同リポジトリは [Haruhisa Enomoto の math-paper-skills](https://github.com/haruhisa-enomoto/math-paper-skills)
 を基礎としています。元の MIT ライセンスと出典表示を保持しています。
 

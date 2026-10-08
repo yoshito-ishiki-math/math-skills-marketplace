@@ -27,7 +27,7 @@ codex plugin list --marketplace yoshito-ishiki-math --json
 
 ## Included plugin
 
-`math-paper-skills` version **0.1.2** installs these three skills together:
+`math-paper-skills` version **0.1.3** installs these three skills together:
 
 | Skill | Purpose |
 | --- | --- |
@@ -68,7 +68,7 @@ updating a reproducible manuscript workflow.
 
 The bundled files come from
 [yoshito-ishiki-math/math-paper-skills](https://github.com/yoshito-ishiki-math/math-paper-skills)
-at commit `a377bfc5b2310d0807baf397c6f8a5e3ff8ec888`.
+at commit `ffe72aaa250e057d55827f33b3fa13bd5451f9b2`.
 That repository is a public derivative of
 [Haruhisa Enomoto's math-paper-skills](https://github.com/haruhisa-enomoto/math-paper-skills).
 Its original MIT license, attribution, and public-release notes are retained.

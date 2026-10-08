@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 — 2026-10-08
+
+- Sync the public source to commit `ffe72aaa250e057d55827f33b3fa13bd5451f9b2`.
+- Add marketplace links, installation commands, and update instructions to the
+  bundled English and Japanese skill READMEs.
+
 ## 0.1.2 — 2026-10-08
 
 - Sync all imported files to public source commit `a377bfc5b2310d0807baf397c6f8a5e3ff8ec888`.

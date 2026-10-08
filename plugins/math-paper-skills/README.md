@@ -22,7 +22,23 @@ loads that standard through a sibling-relative link while remaining isolated
 from the writer workflow and project state. Install the two skills together and
 keep their directory layout unchanged.
 
-## Install once for supported agents
+## Install through the Codex marketplace
+
+The [Yoshito Ishiki Math marketplace](https://github.com/yoshito-ishiki-math/math-skills-marketplace)
+installs the writing, independent-review, and paragraph-ID skills together as
+the **Math Paper Skills** plugin. With a Codex CLI that supports `codex plugin`, run:
+
+```sh
+codex plugin marketplace add yoshito-ishiki-math/math-skills-marketplace
+codex plugin add math-paper-skills@yoshito-ishiki-math
+```
+
+Start a new chat after installation. Once the marketplace is registered, a
+supported app can also install the plugin from **Yoshito Ishiki Math** in its
+plugin directory. See the [marketplace guide](https://github.com/yoshito-ishiki-math/math-skills-marketplace#install)
+for details. Paragraph-ID workflows use the external Kicho tools described below.
+
+## Manual installation for supported agents
 
 Clone this repository once at a stable path. Then link both skill directories
 into each agent's user skill directory. Codex and other hosts using the common
@@ -85,6 +101,18 @@ the desired rules into your private shared profile, then designate that profile
 in your host project. The skill's neutral configuration guide remains the default.
 
 ## Update
+
+### Marketplace installation
+
+```sh
+codex plugin marketplace upgrade yoshito-ishiki-math
+codex plugin add math-paper-skills@yoshito-ishiki-math
+```
+
+Marketplace versions are snapshots of a published source commit. They do not
+automatically follow changes in this repository. Start a new chat after updating.
+
+### Manual installation
 
 Pull this repository at its canonical checkout. All user-level symlinks then
 resolve to the updated files. Tag a known-good revision before manuscript work

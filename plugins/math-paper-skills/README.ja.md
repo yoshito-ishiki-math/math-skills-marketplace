@@ -16,7 +16,24 @@
 
 執筆用と読者用は共通の説明基準を相対パスで参照するため、**2つを一緒に導入し、リポジトリ内の配置を保ってください。** 説明のレビュー、証明の正しさ、原稿のビルド成功は別の確認です。
 
-## 導入
+## marketplaceから導入する（Codex）
+
+[Yoshito Ishiki Math marketplace](https://github.com/yoshito-ishiki-math/math-skills-marketplace)
+から **Math Paper Skills** を導入すると、執筆・独立レビュー・段落IDの3スキルを一緒に使えます。
+`codex plugin` に対応する Codex CLI で、次を実行します。
+
+```sh
+codex plugin marketplace add yoshito-ishiki-math/math-skills-marketplace
+codex plugin add math-paper-skills@yoshito-ishiki-math
+```
+
+導入後は新しいチャットを開始してください。marketplaceを登録した後は、
+対応するアプリのプラグイン一覧で **Yoshito Ishiki Math** を選び、
+**Math Paper Skills** をインストールすることもできます。
+詳しくは[marketplaceの導入案内](https://github.com/yoshito-ishiki-math/math-skills-marketplace/blob/main/README.ja.md#導入)を参照してください。
+段落IDを使う場合のKichoの要件は、下の案内に従ってください。
+
+## 手動で導入する
 
 安定した保存先に、このリポジトリを一度クローンします。
 
@@ -110,6 +127,17 @@ Codexでは `$write-research-paper`、Claude Codeでは `/write-research-paper` 
 原稿、コーパスの設定、個人向けの語彙候補、生成済み索引は同梱しません。生成結果には原文の抜粋やパスが含まれるため、コードとは別に私有データとして管理します。使用頻度は参考資料であり、語の禁止リストや著者の現在の指示を置き換えるものではありません。
 
 ## 更新と検査
+
+marketplaceから導入した場合は、次のコマンドで配布版を更新し、新しいチャットを開始します。
+
+```sh
+codex plugin marketplace upgrade yoshito-ishiki-math
+codex plugin add math-paper-skills@yoshito-ishiki-math
+```
+
+marketplace版は公開コミットのスナップショットなので、このリポジトリの変更は自動反映されません。
+
+手動でリンクを作成した場合は、次の方法で更新します。
 
 クローン先で `git pull` を実行すると、各リンク先も更新版を参照します。私有の変更がある場合は、先に差分を確認してください。再現性が必要な原稿作業では、使用したskillのコミットを記録するか、確認済みの版を固定します。
 
