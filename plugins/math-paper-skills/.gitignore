@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+private/
+*.local.md
+style-corpus.json
+style-counts.json
+lexicon-choices.json
+lexicon-validation.json
+vocabulary-index.json
+contextual-lexicon.json
+contextual-lexicon.md

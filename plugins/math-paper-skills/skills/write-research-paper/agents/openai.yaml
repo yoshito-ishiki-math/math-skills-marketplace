@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Research Paper"
+  short_description: "Owner-directed mathematics paper writing"
+  default_prompt: "Use $write-research-paper in lightweight mode. Keep writing and review in one agent unless I explicitly request heavyweight mode or subagent delegation."

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "math-paper-skills",
+  "version": "0.1.0",
+  "description": "Skills for mathematics-paper writing, explicitly delegated independent exposition review, and stable LaTeX paragraph identifiers.",
+  "author": {
+    "name": "Yoshito Ishiki",
+    "url": "https://github.com/yoshito-ishiki-math"
+  },
+  "homepage": "https://github.com/yoshito-ishiki-math/math-skills-marketplace",
+  "repository": "https://github.com/yoshito-ishiki-math/math-skills-marketplace",
+  "license": "MIT",
+  "keywords": ["mathematics", "latex", "writing", "exposition", "review"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Math Paper Skills",
+        "shortDescription": "Mathematics paper workflows",
+        "longDescription": "Draft and revise mathematics papers, perform explicitly delegated independent exposition review, and maintain stable LaTeX paragraph identifiers. The writing and reading skills share portable guidance and are installed together. Optional corpus tools use owner-designated input; no private corpus is bundled. Exposition review and software checks do not certify mathematical proofs.",
+        "developerName": "Yoshito Ishiki",
+        "category": "Productivity",
+        "capabilities": ["Writing", "Exposition review", "LaTeX paragraph IDs"],
+        "websiteURL": "https://github.com/yoshito-ishiki-math/math-skills-marketplace",
+        "supportURL": "https://github.com/yoshito-ishiki-math/math-skills-marketplace/issues",
+        "defaultPrompt": [
+          "Use the writing skill to revise a mathematics manuscript while preserving its mathematical content.",
+          "Run an explicitly delegated independent exposition review of a frozen mathematics manuscript.",
+          "Set up stable paragraph IDs in my LaTeX manuscript."
+        ],
+        "brandColor": "#1B365D",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}

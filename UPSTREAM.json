@@ -1,0 +1,218 @@
+{
+  "repository": "https://github.com/yoshito-ishiki-math/math-paper-skills",
+  "revision": "f2faa773fa073869d29b4e2a369d10170d2a4feb",
+  "plugin": "math-paper-skills",
+  "plugin_version": "0.1.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha1": "96700b1517812b0082744ac408794822dfb339f8",
+      "size": 205,
+      "sha256": "7aba552b30ab01c98b8808add90c3806e5747d05432a690a605a205496ef3317"
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "b2fba918034cfce3d42ce9be6ddd498d73235421",
+      "size": 1073,
+      "sha256": "f3c924f5d1930cfe42aa0912735f22b0174da2459add8106e13337269d0811c8"
+    },
+    {
+      "path": "PUBLIC-RELEASE.md",
+      "git_blob_sha1": "7cf667415c70dc0db361aaa55b6072cbd021c80a",
+      "size": 2629,
+      "sha256": "8b4106b1cca427fa3e04b2f8a5cfe2af3015c56eab3b2c697fc4c4e0bfbb07b6"
+    },
+    {
+      "path": "README.ja.md",
+      "git_blob_sha1": "02b234e46f723454dde852d6e9efe74e3e3d15d5",
+      "size": 8584,
+      "sha256": "cdeccb692b484b5264df15533e8a6ab158f099bf22aaeaf08b9896db930c250e"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "24335c3c2c3ad6b0256b723c344e7f714657b14a",
+      "size": 4774,
+      "sha256": "53816e404958d6133d69f153a038a3205874a7245651fb45fb4a2c78e24b44c5"
+    },
+    {
+      "path": "examples/author-style.md",
+      "git_blob_sha1": "d50babcd46c833e38df183f2079af046393ebc6f",
+      "size": 26255,
+      "sha256": "be566e78b59c7ed830883ce5a5afa880b2e6a1de29dfb1da6c04bf5d0f474cd9"
+    },
+    {
+      "path": "skills/latex-paragraph-ids/SKILL.md",
+      "git_blob_sha1": "661543f1395a489774d3a16b9b451bb3a4971aa0",
+      "size": 7151,
+      "sha256": "9abac5d2c7bab25dd150cb620238b7075ead8c2940bac9605845e9876a9c672a"
+    },
+    {
+      "path": "skills/latex-paragraph-ids/assets/paragraphids.sty",
+      "git_blob_sha1": "c45c8f5d9cab6a541c1eb78a4294c042ccc6c3c2",
+      "size": 2625,
+      "sha256": "71b5b827e1a533407ad426536c09d34afee6e3925a50462d4fbedcbb968936cc"
+    },
+    {
+      "path": "skills/latex-paragraph-ids/references/usage.md",
+      "git_blob_sha1": "bae31db9198e8f88ee8cac423fca00b5ea84049a",
+      "size": 5050,
+      "sha256": "c7c13694044f5bfddfc1b15b7b1ed0c5650b8bd6f4c7541f2f889bba14e488c9"
+    },
+    {
+      "path": "skills/latex-paragraph-ids/scripts/install.py",
+      "git_blob_sha1": "2848a597ff529dcf3e59c0bea5bcf4182c5e3687",
+      "size": 1036,
+      "sha256": "a372563991c20e8e0d2321b4f4580096d9c888955592902d9dcc795e6d35e5cf"
+    },
+    {
+      "path": "skills/latex-paragraph-ids/scripts/paraids.py",
+      "git_blob_sha1": "8a5811b365d61eae7c42f29d5219fc9e4bb1f257",
+      "size": 4322,
+      "sha256": "3200af3b858bacf617290106b8c5837d16caabe1d5087df89b55980e71911f0e"
+    },
+    {
+      "path": "skills/read-research-paper/SKILL.md",
+      "git_blob_sha1": "53b1b6beb79125298b03c9277dbe50c494e34aaf",
+      "size": 3946,
+      "sha256": "4c0b05e035872cd1fdaafd5b32f58d54c54e78c254269e247ce9ae86ac456234"
+    },
+    {
+      "path": "skills/read-research-paper/agents/openai.yaml",
+      "git_blob_sha1": "6cbe8502a5a61064f015c150c39a176cda20a2a8",
+      "size": 273,
+      "sha256": "b83afbca7f9a5009108119ef780d9b1f83a42b163902dee35c1712dcc00f4eab"
+    },
+    {
+      "path": "skills/read-research-paper/references/delta-review.md",
+      "git_blob_sha1": "b55d56426f1aacac084f08791f551ff9a9c7d69d",
+      "size": 1708,
+      "sha256": "718fd96b42c4b59c5da6c21cb402bb00b51eeb58d5ca304027155746241b30a6"
+    },
+    {
+      "path": "skills/read-research-paper/references/first-reader-review.md",
+      "git_blob_sha1": "41e0052ed3c77343efd1262007e537d95ad0f49f",
+      "size": 19569,
+      "sha256": "cabf42d91d795cfc839a8ca417f824e0a17d70e2d090451587b1c755f6863671"
+    },
+    {
+      "path": "skills/read-research-paper/references/skeptical-editor-review.md",
+      "git_blob_sha1": "c7b0b47113eefb02fec1bd2dd89fdef1debac768",
+      "size": 15075,
+      "sha256": "bf9a5d5a61cb6a51e4d3158a40bb4292a3a4ad1315b146ba497ce3d2c3b673cc"
+    },
+    {
+      "path": "skills/write-research-paper/SKILL.md",
+      "git_blob_sha1": "9db6f061418cf45189ba63d82c4c1fca71437246",
+      "size": 5372,
+      "sha256": "ef8fdfabc0a1b980dbd259707be17f87482ed535decde6fabdd05f53c613e529"
+    },
+    {
+      "path": "skills/write-research-paper/agents/openai.yaml",
+      "git_blob_sha1": "8d2ee5457828a1c6f9d34fb1e0328923b6f77f08",
+      "size": 287,
+      "sha256": "3d9212dbc0ad06d3eb3c46ca3ed81abfcd4b2b77346a457d76ee200b6c758406"
+    },
+    {
+      "path": "skills/write-research-paper/assets/author-proof-decisions.md",
+      "git_blob_sha1": "a8b6b640bc350238d5825577fb8fbc8baf129419",
+      "size": 1310,
+      "sha256": "93ec83ce8b40f38b7324e04102d6715bbbdcdaa121cb42cbaec4993b916d1b74"
+    },
+    {
+      "path": "skills/write-research-paper/assets/first-reader-direction.md",
+      "git_blob_sha1": "c0ab44203d53d75aa7f2941e34e7b86dc4b0005f",
+      "size": 12779,
+      "sha256": "13c839416cd1167cc34bd7f889795e311fadb18394009919c702aa1fb3410d9a"
+    },
+    {
+      "path": "skills/write-research-paper/assets/first-reader-launcher.md",
+      "git_blob_sha1": "8deb58c21c9509ec4e6f1d9c677f4e6801a15d98",
+      "size": 6690,
+      "sha256": "966b7628647611a5325706fece20461eef9768f82b1d3a76c6ea452c7459d870"
+    },
+    {
+      "path": "skills/write-research-paper/assets/revision-batch.md",
+      "git_blob_sha1": "c6ca78df9ad79f21d1d14946312cf00cad4db4ca",
+      "size": 2043,
+      "sha256": "bf17c31a4d1e3b3329a5767d7b20127844b9528ddffaa28d97ab4460349b4733"
+    },
+    {
+      "path": "skills/write-research-paper/assets/skeptical-editor-direction.md",
+      "git_blob_sha1": "34d65ba0707087de5fabb20e5b84566949ab7561",
+      "size": 6632,
+      "sha256": "d13f62185b467acd9f94014788daa87759c292773516b25f8a2c809573dfdcf5"
+    },
+    {
+      "path": "skills/write-research-paper/assets/skeptical-editor-launcher.md",
+      "git_blob_sha1": "00f30fd81f977c660cb99a0c60b39adb71a4a209",
+      "size": 2874,
+      "sha256": "da40aad990cd3e09f5ccd1ea5823484afb41a06c7594275d3cfe23e00c6ec482"
+    },
+    {
+      "path": "skills/write-research-paper/assets/writing-state.md",
+      "git_blob_sha1": "8a61c536c2cd3fb71824ace99ab86e4d4514333f",
+      "size": 2588,
+      "sha256": "c3bb57902edf9fef922e57baf381f657df7651eb3a2fcd3d5e2b08eb3c263916"
+    },
+    {
+      "path": "skills/write-research-paper/references/author-style.md",
+      "git_blob_sha1": "2f9e71e9bca6dc5fb0b7f2181ea36166947fe44d",
+      "size": 1849,
+      "sha256": "72b090268f94a44d9c03fd8c6e5a6bb8592d325f29a6cce9b9cc78da9acf7111"
+    },
+    {
+      "path": "skills/write-research-paper/references/challenging-exposition-audit.md",
+      "git_blob_sha1": "653d80147f4c94e47ddd670283820c04a3822676",
+      "size": 4045,
+      "sha256": "fedbbfdaf501123292f8011b406bcb1dc6f6f362286cc49e040f6949e18fb357"
+    },
+    {
+      "path": "skills/write-research-paper/references/corpus-method.md",
+      "git_blob_sha1": "c00b2183aa28782e9f8456b61e8c7d746a9de28a",
+      "size": 1811,
+      "sha256": "66aeb8a2d5ec2c377e7a0bc60c8fc9f3847a64ddca91623e821f262e04cc62b3"
+    },
+    {
+      "path": "skills/write-research-paper/references/owner-proof-decisions.md",
+      "git_blob_sha1": "469313e244fb0bd0ffca639b5f156a2ea09f9360",
+      "size": 10166,
+      "sha256": "8fbe6ff419626e4d687aa1b0856c734e5ea98777baef11b82736ed9d92ad9b26"
+    },
+    {
+      "path": "skills/write-research-paper/references/paper-writing.md",
+      "git_blob_sha1": "497713ee4c616c3e94c2e345e6c9b0494af322e8",
+      "size": 31822,
+      "sha256": "0bbdabe133b7ff61fcd11cee64eeb4e92e6f723b7936fe9eb713f827faef7c60"
+    },
+    {
+      "path": "skills/write-research-paper/references/workflow.md",
+      "git_blob_sha1": "9973b12b8dca7bfe8759ea326368217c76d16e65",
+      "size": 21081,
+      "sha256": "ccf015a33461c1c8b5a2ce5e20aa5428c33e60d3f6dfff564dd4cd3f6d18acd6"
+    },
+    {
+      "path": "skills/write-research-paper/scripts/build_lexicon.py",
+      "git_blob_sha1": "1d3022126e266ae4fa08d8c0e2520243e44dd3dc",
+      "size": 5594,
+      "sha256": "e5899b170e7c97c0b9dd8f9634a70cd7673a5bca9523b3dc976d89ad8f205a52"
+    },
+    {
+      "path": "skills/write-research-paper/scripts/lookup_lexicon.py",
+      "git_blob_sha1": "2efdeb5bc27f704a07abc4fdb83d00ea6e9c301a",
+      "size": 1157,
+      "sha256": "42a13339f94110f1db9b7428551c13b6ded232ca4cc95fc7f0935b36679d84dc"
+    },
+    {
+      "path": "skills/write-research-paper/scripts/style_corpus.py",
+      "git_blob_sha1": "cabb7cfd668bfa4cfc8b6be632548ce64f7786f5",
+      "size": 7461,
+      "sha256": "515e99d294885da502c7a0c6a46e703bd6cef8d5b58d29ac7885276b6aa316dd"
+    },
+    {
+      "path": "tests/test_portable_tools.py",
+      "git_blob_sha1": "e9af79f871263848a8404a8adae39dc9aca63c0c",
+      "size": 4619,
+      "sha256": "c5b77923ead3fa6677bc9be380429b16615665a7b24ba7ab0ac2855c67dd32f0"
+    }
+  ]
+}

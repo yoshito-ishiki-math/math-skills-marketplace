@@ -1,0 +1,20 @@
+{
+  "name": "yoshito-ishiki-math",
+  "interface": {
+    "displayName": "Yoshito Ishiki Math"
+  },
+  "plugins": [
+    {
+      "name": "math-paper-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/math-paper-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
